@@ -9,7 +9,6 @@ export class ProductsService {
     const filepath = path.join(process.cwd(), 'data', 'products.json');
     const fileData = fs.readFileSync(filepath, 'utf-8');
     const products: Products[] = JSON.parse(fileData) as Products[];
-
     return products;
   }
 }
