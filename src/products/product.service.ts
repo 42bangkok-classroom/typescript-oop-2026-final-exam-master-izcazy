@@ -11,9 +11,8 @@ export class ProductsService {
     const products: Products[] = JSON.parse(fileData) as Products[];
 
     return {
-        "success": true,
-        products,
-        "message": "Fetched products successfully"
-    }
+      products,
+      message: 'Fetched products successfully',
+    };
   }
 }
