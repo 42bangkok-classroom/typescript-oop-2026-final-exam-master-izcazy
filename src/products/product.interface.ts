@@ -1,6 +1,6 @@
 import { ApiResponse } from 'src/interfaces/response.interface';
 
-export interface Products<T extends ApiResponse> {
+export interface Products {
   success: 'true';
   id: string;
   name: string;
