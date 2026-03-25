@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Products } from './products.interface';
+import { Products } from './product.interface';
 import * as fs from 'fs';
 import * as path from 'path';
 
